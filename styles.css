@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.top-bar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin-top: 5%;
+}
+
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  margin: 5px;
+  align-content: center;
+}
+
+.img {
+  background-color: #5e3838;
+  width: 30%; /* Adjust the size as needed */
+  height: 400px; /* Adjust the size as needed */
+  border: 1px solid #352f2f;
+  align-content: center;
+  justify-content: center;
+}
+.image-placeholder {
+  background-color: #5e3838;
+  width: 100%; /* Adjust the size as needed */
+  height: 400px; /* Adjust the size as needed */
+  border: 1px solid #352f2f;
+  align-content: center;
+  justify-content: center;
+}
+
+.video-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.video-container {
+  flex: 1;
+  margin: 1 3px;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+
+.image-placeholder2 {
+    background-color: #584b4b;
+    width: 49%; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border: 1px solid #751a1a;
+  }
+
+  .image-placeholderbig {
+    background-color: #332222;
+    width: 90%; /* Adjust the size as needed */
+    height: 600px; /* Adjust the size as needed */
+    border: 1px solid #2e643e;
+    justify-content: center;
+    justify-items: center;
+    align-content: right;
+  }
+
+  
+  .iframe2 {
+    width: 100%;
+    height: 400px;
+
+  }  
+  .iframe-container {
+    background-color: black;
+    left: 0px;
+    border: 0px none;
+    height: 100%;
+    position: fixed;
+    width: 50%;
+    bottom: 0px;
+    z-index: -2;
+  }
+
+  .image-container {
+    position: relative;
+    float: inline-start;
+    margin-right: 0px;
+    border: 0px;
+    width: 100%;
+    height: 31vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .default-frame {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    left: 0px;
+    border: 0px none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0px;
+  }
