@@ -37,6 +37,7 @@ body {
 .image-section {
   display: flex;
   flex-wrap: wrap;
+  height: 600 px;
   gap: 1px;
   margin: 5px;
   align-content: center;
